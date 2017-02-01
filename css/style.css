@@ -3,6 +3,11 @@ body{
 	padding: 0;
 }
 
-.table1 tr th, td{
-	border: 2px solid red;
+.table1 tr th, .table1 tr td{
+	/*border: 1px solid red;*/
+}
+
+.btn-color{
+	background-color: coral;
+	box-shadow: 3px 3px;
 }
