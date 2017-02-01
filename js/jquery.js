@@ -5,6 +5,7 @@ $(document).ready(function() {
 
 		// var	name=$(".table1 tr:nth-child(0) td:nth-child(1)").text();
 
+		$(".btnName").prop('disabled', true);
 		var	name=$(".name").text();
 
 		$("#name").val(name);
@@ -15,7 +16,7 @@ $(document).ready(function() {
 		$(".btnAge").click(function(){
 
 		// var	name=$(".table1 tr:nth-child(0) td:nth-child(1)").text();
-
+		$(".btnAge").prop('disabled', true);
 		var	age=$(".age").text();
 
 		$("#age").val(age);
@@ -26,7 +27,7 @@ $(document).ready(function() {
 	$(".btnGender").click(function(){
 
 		// var	name=$(".table1 tr:nth-child(0) td:nth-child(1)").text();
-
+		$(".btnGender").prop('disabled', true);
 		var	gender=$(".gender").text();
 
 		$("#gender").val(gender);
@@ -37,7 +38,7 @@ $(document).ready(function() {
 	$(".btnOccupation").click(function(){
 
 		// var	name=$(".table1 tr:nth-child(0) td:nth-child(1)").text();
-
+		$(".btnOccupation").prop('disabled', true);
 		var	occupation=$(".occupation").text();
 
 		$("#occupation").val(occupation);
@@ -48,7 +49,7 @@ $(document).ready(function() {
 	$(".btnEmail").click(function(){
 
 		// var	name=$(".table1 tr:nth-child(0) td:nth-child(1)").text();
-
+		$(".btnEmail").prop('disabled', true);
 		var	email=$(".email").text();
 
 		$("#email").val(email);
@@ -59,7 +60,7 @@ $(document).ready(function() {
 	$(".btnPhone").click(function(){
 
 		// var	name=$(".table1 tr:nth-child(0) td:nth-child(1)").text();
-
+		$(".btnPhone").prop('disabled', true);
 		var	phone=$(".phone").text();
 
 		$("#phone").val(phone);
@@ -70,7 +71,7 @@ $(document).ready(function() {
 		$(".btnAll").click(function(){
 
 		// var	name=$(".table1 tr:nth-child(0) td:nth-child(1)").text();
-
+		$(".btnAll").prop('disabled', true);
 		var	name=$(".name").text();
 
 		$("#name").val(name);
